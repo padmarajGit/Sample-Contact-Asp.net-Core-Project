@@ -1,4 +1,5 @@
-﻿
+//Scripts to initialse new DB tables
+
 INSERT INTO dbo.ApplicationSettings (AppToken, AppName)
 VALUES(NEWID(), 'WEB APP')
 GO
