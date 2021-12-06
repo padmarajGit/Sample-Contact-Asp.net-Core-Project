@@ -1,4 +1,5 @@
-﻿
+//Scripts to insert default data.
+
 INSERT INTO dbo.ApplicationSettings (AppToken, AppName)
 VALUES(NEWID(), 'WEB APP')
 GO
